@@ -62,7 +62,7 @@
         <!--Home-->
         <scene sceneID="8uZ-zf-zSc">
             <objects>
-                <viewController id="AQR-kJ-VdM" sceneMemberID="viewController">
+                <viewController id="AQR-kJ-VdM" customClass="ViewController" customModule="Kults" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8RL-eA-vya">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -80,10 +80,18 @@
         <!--Search-->
         <scene sceneID="Nw4-93-1ar">
             <objects>
-                <viewController id="3h0-ns-lgg" sceneMemberID="viewController">
+                <viewController id="3h0-ns-lgg" customClass="SearchViewController" customModule="Kults" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZrO-wy-xco">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" searchBarStyle="minimal" text="" placeholder="Buscar" translatesAutoresizingMaskIntoConstraints="NO" id="wzI-wB-1y9">
+                                <rect key="frame" x="20" y="55" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.8784313725490196" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="eCm-mC-Dye"/>
                     </view>
@@ -98,7 +106,7 @@
         <!--Map-->
         <scene sceneID="bBf-Va-Gbm">
             <objects>
-                <viewController id="WU4-la-LL4" sceneMemberID="viewController">
+                <viewController id="WU4-la-LL4" customClass="MapViewController" customModule="Kults" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bia-n8-8lA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,7 +122,7 @@
         <!--Root View Controller-->
         <scene sceneID="Jdv-S2-SAS">
             <objects>
-                <tableViewController id="WJ0-2v-Jhh" sceneMemberID="viewController">
+                <tableViewController id="WJ0-2v-Jhh" customClass="SettingsViewController" customModule="Kults" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Sii-fH-9Yf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F2249AA15A007D7654 /* SearchViewController.swift */; };
+		FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F4249AA17B007D7654 /* MapViewController.swift */; };
+		FE05F1F9249AA386007D7654 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F8249AA386007D7654 /* SettingsViewController.swift */; };
 		FECF80A32497B58E004BAC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A22497B58E004BAC92 /* AppDelegate.swift */; };
 		FECF80A52497B58E004BAC92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A42497B58E004BAC92 /* SceneDelegate.swift */; };
 		FECF80A72497B58E004BAC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A62497B58E004BAC92 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE05F1F2249AA15A007D7654 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FE05F1F4249AA17B007D7654 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FE05F1F8249AA386007D7654 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FECF809F2497B58E004BAC92 /* Kults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kults.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECF80A22497B58E004BAC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FECF80A42497B58E004BAC92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				FECF80AB2497B58F004BAC92 /* Assets.xcassets */,
 				FECF80AD2497B58F004BAC92 /* LaunchScreen.storyboard */,
 				FECF80B02497B58F004BAC92 /* Info.plist */,
+				FE05F1F2249AA15A007D7654 /* SearchViewController.swift */,
+				FE05F1F4249AA17B007D7654 /* MapViewController.swift */,
+				FE05F1F8249AA386007D7654 /* SettingsViewController.swift */,
 			);
 			path = Kults;
 			sourceTree = "<group>";
@@ -261,7 +270,10 @@
 			files = (
 				FECF80A72497B58E004BAC92 /* ViewController.swift in Sources */,
 				FECF80A32497B58E004BAC92 /* AppDelegate.swift in Sources */,
+				FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */,
+				FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */,
 				FECF80A52497B58E004BAC92 /* SceneDelegate.swift in Sources */,
+				FE05F1F9249AA386007D7654 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
