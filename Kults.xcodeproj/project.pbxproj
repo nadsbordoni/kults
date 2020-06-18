@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57E95656249BB53C00D98358 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E95655249BB53C00D98358 /* MyCell.swift */; };
 		FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F2249AA15A007D7654 /* SearchViewController.swift */; };
 		FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F4249AA17B007D7654 /* MapViewController.swift */; };
 		FE05F1F9249AA386007D7654 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F8249AA386007D7654 /* SettingsViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57E95655249BB53C00D98358 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		FE05F1F2249AA15A007D7654 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FE05F1F4249AA17B007D7654 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FE05F1F8249AA386007D7654 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				FECF80A22497B58E004BAC92 /* AppDelegate.swift */,
 				FECF80A42497B58E004BAC92 /* SceneDelegate.swift */,
 				FECF80A62497B58E004BAC92 /* ViewController.swift */,
+				57E95655249BB53C00D98358 /* MyCell.swift */,
 				FECF80A82497B58E004BAC92 /* Main.storyboard */,
 				FECF80AB2497B58F004BAC92 /* Assets.xcassets */,
 				FECF80AD2497B58F004BAC92 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 				FECF80A32497B58E004BAC92 /* AppDelegate.swift in Sources */,
 				FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */,
 				FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */,
+				57E95656249BB53C00D98358 /* MyCell.swift in Sources */,
 				FECF80A52497B58E004BAC92 /* SceneDelegate.swift in Sources */,
 				FE05F1F9249AA386007D7654 /* SettingsViewController.swift in Sources */,
 			);
