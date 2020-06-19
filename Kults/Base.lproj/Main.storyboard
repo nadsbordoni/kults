@@ -68,13 +68,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="VQM-eI-7IC">
-                                <rect key="frame" x="17" y="152" width="380" height="585"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="VQM-eI-7IC">
+                                <rect key="frame" x="12.5" y="119" width="389" height="670"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VQM-eI-7IC" secondAttribute="height" multiplier="389:670" id="PNv-jw-Tab"/>
+                                </constraints>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zhH-Kh-J4I">
-                                <rect key="frame" x="47" y="161" width="320" height="600"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zhH-Kh-J4I">
+                                <rect key="frame" x="10" y="161" width="394" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="394" id="4li-Ay-zCZ"/>
+                                    <constraint firstAttribute="width" secondItem="zhH-Kh-J4I" secondAttribute="height" multiplier="197:300" id="9lo-uY-LCD"/>
+                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="r58-oy-1es">
                                     <size key="itemSize" width="320" height="164"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -83,7 +88,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="my cell" id="dUZ-0e-8LY" customClass="MyCell" customModule="Kults" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="164"/>
+                                        <rect key="frame" x="37" y="0.0" width="320" height="164"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="e1S-my-Zu0">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="164"/>
@@ -105,12 +110,26 @@
                                     <outlet property="delegate" destination="AQR-kJ-VdM" id="NFH-jH-sio"/>
                                 </connections>
                             </collectionView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="ryT-ET-540">
-                                <rect key="frame" x="120" y="51" width="175" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="ryT-ET-540">
+                                <rect key="frame" x="109" y="49" width="196" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="Bow-qx-sAH"/>
+                                    <constraint firstAttribute="height" constant="68" id="Wmm-lx-9tD"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.8784313725490196" blue="0.97647058823529409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zhH-Kh-J4I" firstAttribute="centerX" secondItem="8RL-eA-vya" secondAttribute="centerX" id="25a-Fx-oVn"/>
+                            <constraint firstItem="ryT-ET-540" firstAttribute="top" secondItem="7lu-4O-kCs" secondAttribute="top" constant="5" id="Ebn-qw-eFr" userLabel="title.top = Safe Area.top + 4"/>
+                            <constraint firstItem="VQM-eI-7IC" firstAttribute="leading" secondItem="7lu-4O-kCs" secondAttribute="leading" constant="12.5" id="LA6-MT-yiT"/>
+                            <constraint firstItem="7lu-4O-kCs" firstAttribute="bottom" secondItem="VQM-eI-7IC" secondAttribute="bottom" constant="24" id="Ouc-Kw-4h3"/>
+                            <constraint firstItem="VQM-eI-7IC" firstAttribute="top" secondItem="7lu-4O-kCs" secondAttribute="top" constant="75" id="RFs-U8-h0n"/>
+                            <constraint firstItem="zhH-Kh-J4I" firstAttribute="top" secondItem="7lu-4O-kCs" secondAttribute="top" constant="117" id="XlM-4x-mqy"/>
+                            <constraint firstItem="7lu-4O-kCs" firstAttribute="trailing" secondItem="ryT-ET-540" secondAttribute="trailing" constant="109" id="Yzb-44-bkf"/>
+                            <constraint firstItem="7lu-4O-kCs" firstAttribute="trailing" secondItem="VQM-eI-7IC" secondAttribute="trailing" constant="12.5" id="sfM-gP-ALP"/>
+                            <constraint firstItem="ryT-ET-540" firstAttribute="leading" secondItem="7lu-4O-kCs" secondAttribute="leading" constant="109" id="wqt-C9-PMb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7lu-4O-kCs"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="62y-ya-5J0">
