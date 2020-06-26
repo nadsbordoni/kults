@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575785F324A6228D00F99310 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575785F224A6228D00F99310 /* DetailViewController.swift */; };
+		5758166924A3EE3300FFF3BD /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5758166824A3EE3300FFF3BD /* Animation.swift */; };
+		5758166B24A3EF8500FFF3BD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5758166A24A3EF8500FFF3BD /* Model.swift */; };
 		57E95656249BB53C00D98358 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E95655249BB53C00D98358 /* MyCell.swift */; };
+		57EB1E5124A58FA000DB58A7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57EB1E5024A58FA000DB58A7 /* Media.xcassets */; };
+		57EB1E5524A5919300DB58A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57EB1E5424A5919300DB58A7 /* Assets.xcassets */; };
+		57EB1E5724A5943D00DB58A7 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1E5624A5943D00DB58A7 /* MyTableViewCell.swift */; };
+		57EB1E5924A5A1D000DB58A7 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1E5824A5A1D000DB58A7 /* Episode.swift */; };
 		FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F2249AA15A007D7654 /* SearchViewController.swift */; };
 		FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F4249AA17B007D7654 /* MapViewController.swift */; };
 		FE05F1F9249AA386007D7654 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F8249AA386007D7654 /* SettingsViewController.swift */; };
@@ -15,7 +22,6 @@
 		FECF80A52497B58E004BAC92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A42497B58E004BAC92 /* SceneDelegate.swift */; };
 		FECF80A72497B58E004BAC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A62497B58E004BAC92 /* ViewController.swift */; };
 		FECF80AA2497B58E004BAC92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECF80A82497B58E004BAC92 /* Main.storyboard */; };
-		FECF80AC2497B58F004BAC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECF80AB2497B58F004BAC92 /* Assets.xcassets */; };
 		FECF80AF2497B58F004BAC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECF80AD2497B58F004BAC92 /* LaunchScreen.storyboard */; };
 		FECF80BA2497B58F004BAC92 /* KultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80B92497B58F004BAC92 /* KultsTests.swift */; };
 		FECF80C52497B58F004BAC92 /* KultsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80C42497B58F004BAC92 /* KultsUITests.swift */; };
@@ -39,7 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		575785F224A6228D00F99310 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5758166824A3EE3300FFF3BD /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		5758166A24A3EF8500FFF3BD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		57E95655249BB53C00D98358 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		57EB1E5024A58FA000DB58A7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		57EB1E5424A5919300DB58A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Desktop/kults/Kults/Assets.xcassets; sourceTree = "<group>"; };
+		57EB1E5624A5943D00DB58A7 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		57EB1E5824A5A1D000DB58A7 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		FE05F1F2249AA15A007D7654 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FE05F1F4249AA17B007D7654 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FE05F1F8249AA386007D7654 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +61,6 @@
 		FECF80A42497B58E004BAC92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FECF80A62497B58E004BAC92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FECF80A92497B58E004BAC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FECF80AB2497B58F004BAC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FECF80AE2497B58F004BAC92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FECF80B02497B58F004BAC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FECF80B52497B58F004BAC92 /* KultsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KultsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +99,7 @@
 		FECF80962497B58E004BAC92 = {
 			isa = PBXGroup;
 			children = (
+				57EB1E5024A58FA000DB58A7 /* Media.xcassets */,
 				FECF80A12497B58E004BAC92 /* Kults */,
 				FECF80B82497B58F004BAC92 /* KultsTests */,
 				FECF80C32497B58F004BAC92 /* KultsUITests */,
@@ -110,9 +123,14 @@
 				FECF80A22497B58E004BAC92 /* AppDelegate.swift */,
 				FECF80A42497B58E004BAC92 /* SceneDelegate.swift */,
 				FECF80A62497B58E004BAC92 /* ViewController.swift */,
+				575785F224A6228D00F99310 /* DetailViewController.swift */,
+				5758166824A3EE3300FFF3BD /* Animation.swift */,
+				57EB1E5824A5A1D000DB58A7 /* Episode.swift */,
+				5758166A24A3EF8500FFF3BD /* Model.swift */,
 				57E95655249BB53C00D98358 /* MyCell.swift */,
+				57EB1E5624A5943D00DB58A7 /* MyTableViewCell.swift */,
 				FECF80A82497B58E004BAC92 /* Main.storyboard */,
-				FECF80AB2497B58F004BAC92 /* Assets.xcassets */,
+				57EB1E5424A5919300DB58A7 /* Assets.xcassets */,
 				FECF80AD2497B58F004BAC92 /* LaunchScreen.storyboard */,
 				FECF80B02497B58F004BAC92 /* Info.plist */,
 				FE05F1F2249AA15A007D7654 /* SearchViewController.swift */,
@@ -245,7 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECF80AF2497B58F004BAC92 /* LaunchScreen.storyboard in Resources */,
-				FECF80AC2497B58F004BAC92 /* Assets.xcassets in Resources */,
+				57EB1E5124A58FA000DB58A7 /* Media.xcassets in Resources */,
+				57EB1E5524A5919300DB58A7 /* Assets.xcassets in Resources */,
 				FECF80AA2497B58E004BAC92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5758166B24A3EF8500FFF3BD /* Model.swift in Sources */,
 				FECF80A72497B58E004BAC92 /* ViewController.swift in Sources */,
 				FECF80A32497B58E004BAC92 /* AppDelegate.swift in Sources */,
+				575785F324A6228D00F99310 /* DetailViewController.swift in Sources */,
+				57EB1E5724A5943D00DB58A7 /* MyTableViewCell.swift in Sources */,
+				5758166924A3EE3300FFF3BD /* Animation.swift in Sources */,
+				57EB1E5924A5A1D000DB58A7 /* Episode.swift in Sources */,
 				FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */,
 				FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */,
 				57E95656249BB53C00D98358 /* MyCell.swift in Sources */,
