@@ -21,6 +21,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 
     let animations:[Animation] = Model.shared
     
+    
     var chosenAnimation: Animation = Animation(image: UIImage(named: "titleAnimationOne")!, title: "", episode: [])
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
