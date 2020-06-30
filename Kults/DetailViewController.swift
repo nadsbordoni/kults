@@ -21,6 +21,7 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         animationImage.image = chosenAnimation.image
         animationTitle.text = chosenAnimation.title
+        
         // Do any additional setup after loading the view.
     }
     
@@ -38,6 +39,11 @@ extension DetailViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "mytablecell") as? MyTableViewCell
         cell?.setTableView(imagem: chosenAnimation.episode[indexPath.row].image, title: chosenAnimation.episode[indexPath.row].title, description: chosenAnimation.episode[indexPath.row].description)
+        
+        cell?.imagem.layer.cornerRadius = 10
+        cell?.imagem.layer.borderColor = UIColor.white.cgColor
+        cell?.imagem.layer.borderWidth = 2
+        
         return cell!
     }
     

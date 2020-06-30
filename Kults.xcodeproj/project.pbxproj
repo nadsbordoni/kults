@@ -50,6 +50,8 @@
 		57E95655249BB53C00D98358 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		57EB1E5624A5943D00DB58A7 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		57EB1E5824A5A1D000DB58A7 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		8B31793E24ABBD090050ACCE /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Medium.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		8B31793F24ABBD090050ACCE /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Regular.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
 		8BC8F47124AAC374006AFFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE05F1F2249AA15A007D7654 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FE05F1F4249AA17B007D7654 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B31793B24ABB9D70050ACCE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B31793E24ABBD090050ACCE /* SF-Pro-Rounded-Medium.otf */,
+				8B31793F24ABBD090050ACCE /* SF-Pro-Rounded-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		FECF80962497B58E004BAC92 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +128,7 @@
 		FECF80A12497B58E004BAC92 /* Kults */ = {
 			isa = PBXGroup;
 			children = (
+				8B31793B24ABB9D70050ACCE /* Fonts */,
 				FECF80A22497B58E004BAC92 /* AppDelegate.swift */,
 				FECF80A42497B58E004BAC92 /* SceneDelegate.swift */,
 				FECF80A62497B58E004BAC92 /* ViewController.swift */,
