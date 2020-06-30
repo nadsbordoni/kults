@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AVKit
 
+var myIndex = 0
 class DetailViewController: UIViewController {
-
+    
     @IBOutlet weak var animationImage: UIImageView!
     @IBOutlet weak var animationTitle: UILabel!
     
@@ -25,11 +27,11 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
     func setView(animation: Animation){
         chosenAnimation = animation
     }
-
+    
 }
 extension DetailViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -46,6 +48,10 @@ extension DetailViewController: UITableViewDelegate, UITableViewDataSource{
         
         return cell!
     }
-    
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        myIndex = indexPath.row
+        if myIndex == 0{
+            performSegue(withIdentifier: "video", sender: "self")
+        }
+    }
 }

@@ -16,31 +16,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="6wI-vY-3tX">
-            <objects>
-                <viewController id="xgW-6y-yGa" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XAd-rX-Ka3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visualiza video" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="19n-Ho-BkE">
-                                <rect key="frame" x="150" y="347" width="114" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="rTn-Kf-0iH"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="r3e-Kb-DBw"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b68-W3-64w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1248" y="1059"/>
-        </scene>
         <!--Detail View Controller-->
         <scene sceneID="vyn-AH-F1l">
             <objects>
@@ -129,38 +104,22 @@
                     <connections>
                         <outlet property="animationImage" destination="wNQ-bz-Ez0" id="exz-O1-mwA"/>
                         <outlet property="animationTitle" destination="c4L-tx-ZIi" id="2y2-zg-rK7"/>
+                        <segue destination="89H-gM-L8e" kind="show" identifier="video" id="V90-Vz-QQN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVi-dX-9PE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3542.0289855072465" y="770.75892857142856"/>
+            <point key="canvasLocation" x="-3510" y="1021"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="GZQ-1v-Ut5">
+        <!--AV Player View Controller-->
+        <scene sceneID="nZc-Ni-PLh">
             <objects>
-                <viewController id="f4P-MD-XvS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IJT-50-b6k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pagina com eps e Informacoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jk-I9-rE9">
-                                <rect key="frame" x="104" y="410" width="235" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="nPV-nH-i1L"/>
-                    </view>
-                    <connections>
-                        <segue destination="xgW-6y-yGa" kind="show" id="voh-8i-mcn"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0UU-Um-adq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="89H-gM-L8e" customClass="videoViewController" customModule="Kults" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6sp-9l-hdB"/>
+                </avPlayerViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="edR-6M-Aea" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2249" y="1059"/>
+            <point key="canvasLocation" x="-2583" y="1032"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8uZ-zf-zSc">

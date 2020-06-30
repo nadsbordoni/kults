@@ -17,6 +17,8 @@
 		FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F2249AA15A007D7654 /* SearchViewController.swift */; };
 		FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F4249AA17B007D7654 /* MapViewController.swift */; };
 		FE05F1F9249AA386007D7654 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F8249AA386007D7654 /* SettingsViewController.swift */; };
+		FE99CF2624ABD831006828D3 /* Todas as cenas.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FE99CF2524ABD831006828D3 /* Todas as cenas.mp4 */; };
+		FE99CF2A24ABE68C006828D3 /* videoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE99CF2924ABE68C006828D3 /* videoViewController.swift */; };
 		FECF80A32497B58E004BAC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A22497B58E004BAC92 /* AppDelegate.swift */; };
 		FECF80A52497B58E004BAC92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A42497B58E004BAC92 /* SceneDelegate.swift */; };
 		FECF80A72497B58E004BAC92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECF80A62497B58E004BAC92 /* ViewController.swift */; };
@@ -56,6 +58,8 @@
 		FE05F1F2249AA15A007D7654 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FE05F1F4249AA17B007D7654 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		FE05F1F8249AA386007D7654 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FE99CF2524ABD831006828D3 /* Todas as cenas.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Todas as cenas.mp4"; sourceTree = "<group>"; };
+		FE99CF2924ABE68C006828D3 /* videoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoViewController.swift; sourceTree = "<group>"; };
 		FECF809F2497B58E004BAC92 /* Kults.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kults.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECF80A22497B58E004BAC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FECF80A42497B58E004BAC92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				FE05F1F2249AA15A007D7654 /* SearchViewController.swift */,
 				FE05F1F4249AA17B007D7654 /* MapViewController.swift */,
 				FE05F1F8249AA386007D7654 /* SettingsViewController.swift */,
+				FE99CF2924ABE68C006828D3 /* videoViewController.swift */,
+				FE99CF2524ABD831006828D3 /* Todas as cenas.mp4 */,
 			);
 			path = Kults;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 				FECF80AF2497B58F004BAC92 /* LaunchScreen.storyboard in Resources */,
 				8BC8F47224AAC374006AFFDE /* Assets.xcassets in Resources */,
 				FECF80AA2497B58E004BAC92 /* Main.storyboard in Resources */,
+				FE99CF2624ABD831006828D3 /* Todas as cenas.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE99CF2A24ABE68C006828D3 /* videoViewController.swift in Sources */,
 				5758166B24A3EF8500FFF3BD /* Model.swift in Sources */,
 				FECF80A72497B58E004BAC92 /* ViewController.swift in Sources */,
 				FECF80A32497B58E004BAC92 /* AppDelegate.swift in Sources */,
