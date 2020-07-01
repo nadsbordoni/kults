@@ -15,15 +15,6 @@
 		57EB1E5924A5A1D000DB58A7 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1E5824A5A1D000DB58A7 /* Episode.swift */; };
 		8B337F2224AC0D8500FA5AF0 /* InteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B337F2124AC0D8500FA5AF0 /* InteractionViewController.swift */; };
 		8B337F2424AC40DA00FA5AF0 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B337F2324AC40DA00FA5AF0 /* ButtonExtension.swift */; };
-		8B337F2F24AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2624AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 */; };
-		8B337F3024AC4B1400FA5AF0 /* Tucupi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2724AC4B1400FA5AF0 /* Tucupi.mp3 */; };
-		8B337F3224AC4B1400FA5AF0 /* Escolha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2924AC4B1400FA5AF0 /* Escolha.mp3 */; };
-		8B337F3324AC4B1400FA5AF0 /* Piracuru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2A24AC4B1400FA5AF0 /* Piracuru.mp3 */; };
-		8B337F3424AC4B1400FA5AF0 /* EscolheuTacacá.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2B24AC4B1400FA5AF0 /* EscolheuTacacá.mp3 */; };
-		8B337F3524AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2C24AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 */; };
-		8B337F3624AC4B1400FA5AF0 /* Maniçoba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2D24AC4B1400FA5AF0 /* Maniçoba.mp3 */; };
-		8B337F3724AC4B1400FA5AF0 /* Tacacá.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2E24AC4B1400FA5AF0 /* Tacacá.mp3 */; };
-		8B337F3924AC5BE000FA5AF0 /* EscolheuTucupi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F3824AC5BE000FA5AF0 /* EscolheuTucupi.mp3 */; };
 		8BC8F47224AAC374006AFFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8F47124AAC374006AFFDE /* Assets.xcassets */; };
 		FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F2249AA15A007D7654 /* SearchViewController.swift */; };
 		FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F4249AA17B007D7654 /* MapViewController.swift */; };
@@ -318,19 +309,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B337F3624AC4B1400FA5AF0 /* Maniçoba.mp3 in Resources */,
-				8B337F3224AC4B1400FA5AF0 /* Escolha.mp3 in Resources */,
-				8B337F3524AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 in Resources */,
 				FECF80AF2497B58F004BAC92 /* LaunchScreen.storyboard in Resources */,
 				8BC8F47224AAC374006AFFDE /* Assets.xcassets in Resources */,
-				8B337F3424AC4B1400FA5AF0 /* EscolheuTacacá.mp3 in Resources */,
 				FECF80AA2497B58E004BAC92 /* Main.storyboard in Resources */,
-				8B337F3324AC4B1400FA5AF0 /* Piracuru.mp3 in Resources */,
 				FE99CF2624ABD831006828D3 /* Todas as cenas.mp4 in Resources */,
-				8B337F3924AC5BE000FA5AF0 /* EscolheuTucupi.mp3 in Resources */,
-				8B337F3024AC4B1400FA5AF0 /* Tucupi.mp3 in Resources */,
-				8B337F2F24AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 in Resources */,
-				8B337F3724AC4B1400FA5AF0 /* Tacacá.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

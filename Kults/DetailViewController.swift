@@ -51,7 +51,9 @@ extension DetailViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         myIndex = indexPath.row
         if myIndex == 0{
-            performSegue(withIdentifier: "video", sender: "self")
+            let videoController = videoViewController()
+            videoController.navigation = self.navigationController
+            present(videoController, animated: true, completion: nil)
         }
     }
 }

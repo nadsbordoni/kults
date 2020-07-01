@@ -10,15 +10,21 @@ import UIKit
 import AVKit
 
 class videoViewController: AVPlayerViewController {
-    
-    
+    var navigation: UINavigationController?
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = true
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
         if myIndex == 0 {
-            let video = Bundle.main.url(forResource: "Todas as cenas", withExtension: "mp4")!
-            self.player = AVPlayer(url: video)
+            let path = Bundle.main.url(forResource: "Todas as cenas", withExtension: "mp4")
+            let player = AVPlayer(url: path!)
+            self.player = player
+            
+            
             // para não voltar pro mesmo vídeo na tela de interação coloquei o index igual a 1 assim que termina o index 0
             myIndex = 1
         }
@@ -28,17 +34,23 @@ class videoViewController: AVPlayerViewController {
         self.player?.play()
         
         NotificationCenter.default.addObserver(self, selector: #selector(videoDidEnd), name:
-        NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
+            NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
         
     }
     
     @objc func videoDidEnd(notification: NSNotification) {
-       let interactionView = storyboard?.instantiateViewController(identifier: "interaction") as? InteractionViewController
-       self.navigationController?.pushViewController(interactionView! , animated: true)
+        let storyboard = navigation?.storyboard
+        let interactionView = storyboard?.instantiateViewController(identifier: "interaction") as? InteractionViewController
+        
+        self.navigation?.pushViewController(interactionView! , animated: true)
+        self.dismiss(animated: true, completion: nil)
     }
     
     deinit {
-       NotificationCenter.default.removeObserver(self)
+        NotificationCenter.default.removeObserver(self)
     }
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = false
+        self.navigation?.setNavigationBarHidden(false, animated: false)
+    }
 }
