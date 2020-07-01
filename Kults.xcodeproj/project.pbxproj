@@ -13,6 +13,17 @@
 		57E95656249BB53C00D98358 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E95655249BB53C00D98358 /* MyCell.swift */; };
 		57EB1E5724A5943D00DB58A7 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1E5624A5943D00DB58A7 /* MyTableViewCell.swift */; };
 		57EB1E5924A5A1D000DB58A7 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1E5824A5A1D000DB58A7 /* Episode.swift */; };
+		8B337F2224AC0D8500FA5AF0 /* InteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B337F2124AC0D8500FA5AF0 /* InteractionViewController.swift */; };
+		8B337F2424AC40DA00FA5AF0 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B337F2324AC40DA00FA5AF0 /* ButtonExtension.swift */; };
+		8B337F2F24AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2624AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 */; };
+		8B337F3024AC4B1400FA5AF0 /* Tucupi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2724AC4B1400FA5AF0 /* Tucupi.mp3 */; };
+		8B337F3224AC4B1400FA5AF0 /* Escolha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2924AC4B1400FA5AF0 /* Escolha.mp3 */; };
+		8B337F3324AC4B1400FA5AF0 /* Piracuru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2A24AC4B1400FA5AF0 /* Piracuru.mp3 */; };
+		8B337F3424AC4B1400FA5AF0 /* EscolheuTacacá.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2B24AC4B1400FA5AF0 /* EscolheuTacacá.mp3 */; };
+		8B337F3524AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2C24AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 */; };
+		8B337F3624AC4B1400FA5AF0 /* Maniçoba.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2D24AC4B1400FA5AF0 /* Maniçoba.mp3 */; };
+		8B337F3724AC4B1400FA5AF0 /* Tacacá.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F2E24AC4B1400FA5AF0 /* Tacacá.mp3 */; };
+		8B337F3924AC5BE000FA5AF0 /* EscolheuTucupi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B337F3824AC5BE000FA5AF0 /* EscolheuTucupi.mp3 */; };
 		8BC8F47224AAC374006AFFDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC8F47124AAC374006AFFDE /* Assets.xcassets */; };
 		FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F2249AA15A007D7654 /* SearchViewController.swift */; };
 		FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE05F1F4249AA17B007D7654 /* MapViewController.swift */; };
@@ -54,6 +65,17 @@
 		57EB1E5824A5A1D000DB58A7 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		8B31793E24ABBD090050ACCE /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Medium.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
 		8B31793F24ABBD090050ACCE /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Rounded-Regular.otf"; path = "../../../../../../../../Library/Fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
+		8B337F2124AC0D8500FA5AF0 /* InteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionViewController.swift; sourceTree = "<group>"; };
+		8B337F2324AC40DA00FA5AF0 /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		8B337F2624AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "EscolheuManiçoba.mp3"; path = "../../../Design/Assets do app/Interação áudios/EscolheuManiçoba.mp3"; sourceTree = "<group>"; };
+		8B337F2724AC4B1400FA5AF0 /* Tucupi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Tucupi.mp3; path = "../../../Design/Assets do app/Interação áudios/Tucupi.mp3"; sourceTree = "<group>"; };
+		8B337F2924AC4B1400FA5AF0 /* Escolha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Escolha.mp3; path = "../../../Design/Assets do app/Interação áudios/Escolha.mp3"; sourceTree = "<group>"; };
+		8B337F2A24AC4B1400FA5AF0 /* Piracuru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Piracuru.mp3; path = "../../../Design/Assets do app/Interação áudios/Piracuru.mp3"; sourceTree = "<group>"; };
+		8B337F2B24AC4B1400FA5AF0 /* EscolheuTacacá.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "EscolheuTacacá.mp3"; path = "../../../Design/Assets do app/Interação áudios/EscolheuTacacá.mp3"; sourceTree = "<group>"; };
+		8B337F2C24AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EscolheuPiracuru.mp3; path = "../../../Design/Assets do app/Interação áudios/EscolheuPiracuru.mp3"; sourceTree = "<group>"; };
+		8B337F2D24AC4B1400FA5AF0 /* Maniçoba.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Maniçoba.mp3"; path = "../../../Design/Assets do app/Interação áudios/Maniçoba.mp3"; sourceTree = "<group>"; };
+		8B337F2E24AC4B1400FA5AF0 /* Tacacá.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Tacacá.mp3"; path = "../../../Design/Assets do app/Interação áudios/Tacacá.mp3"; sourceTree = "<group>"; };
+		8B337F3824AC5BE000FA5AF0 /* EscolheuTucupi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EscolheuTucupi.mp3; path = "../../../Design/Assets do app/Interação áudios/EscolheuTucupi.mp3"; sourceTree = "<group>"; };
 		8BC8F47124AAC374006AFFDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE05F1F2249AA15A007D7654 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		FE05F1F4249AA17B007D7654 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +131,22 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		8B337F2524AC4AF500FA5AF0 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				8B337F2924AC4B1400FA5AF0 /* Escolha.mp3 */,
+				8B337F2624AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 */,
+				8B337F2C24AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 */,
+				8B337F2B24AC4B1400FA5AF0 /* EscolheuTacacá.mp3 */,
+				8B337F3824AC5BE000FA5AF0 /* EscolheuTucupi.mp3 */,
+				8B337F2D24AC4B1400FA5AF0 /* Maniçoba.mp3 */,
+				8B337F2A24AC4B1400FA5AF0 /* Piracuru.mp3 */,
+				8B337F2E24AC4B1400FA5AF0 /* Tacacá.mp3 */,
+				8B337F2724AC4B1400FA5AF0 /* Tucupi.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
 		FECF80962497B58E004BAC92 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +170,7 @@
 		FECF80A12497B58E004BAC92 /* Kults */ = {
 			isa = PBXGroup;
 			children = (
+				8B337F2524AC4AF500FA5AF0 /* Audios */,
 				8B31793B24ABB9D70050ACCE /* Fonts */,
 				FECF80A22497B58E004BAC92 /* AppDelegate.swift */,
 				FECF80A42497B58E004BAC92 /* SceneDelegate.swift */,
@@ -150,6 +189,8 @@
 				FE05F1F4249AA17B007D7654 /* MapViewController.swift */,
 				FE05F1F8249AA386007D7654 /* SettingsViewController.swift */,
 				FE99CF2924ABE68C006828D3 /* videoViewController.swift */,
+				8B337F2124AC0D8500FA5AF0 /* InteractionViewController.swift */,
+				8B337F2324AC40DA00FA5AF0 /* ButtonExtension.swift */,
 				FE99CF2524ABD831006828D3 /* Todas as cenas.mp4 */,
 			);
 			path = Kults;
@@ -277,10 +318,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B337F3624AC4B1400FA5AF0 /* Maniçoba.mp3 in Resources */,
+				8B337F3224AC4B1400FA5AF0 /* Escolha.mp3 in Resources */,
+				8B337F3524AC4B1400FA5AF0 /* EscolheuPiracuru.mp3 in Resources */,
 				FECF80AF2497B58F004BAC92 /* LaunchScreen.storyboard in Resources */,
 				8BC8F47224AAC374006AFFDE /* Assets.xcassets in Resources */,
+				8B337F3424AC4B1400FA5AF0 /* EscolheuTacacá.mp3 in Resources */,
 				FECF80AA2497B58E004BAC92 /* Main.storyboard in Resources */,
+				8B337F3324AC4B1400FA5AF0 /* Piracuru.mp3 in Resources */,
 				FE99CF2624ABD831006828D3 /* Todas as cenas.mp4 in Resources */,
+				8B337F3924AC5BE000FA5AF0 /* EscolheuTucupi.mp3 in Resources */,
+				8B337F3024AC4B1400FA5AF0 /* Tucupi.mp3 in Resources */,
+				8B337F2F24AC4B1400FA5AF0 /* EscolheuManiçoba.mp3 in Resources */,
+				8B337F3724AC4B1400FA5AF0 /* Tacacá.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +364,10 @@
 				5758166924A3EE3300FFF3BD /* Animation.swift in Sources */,
 				57EB1E5924A5A1D000DB58A7 /* Episode.swift in Sources */,
 				FE05F1F3249AA15A007D7654 /* SearchViewController.swift in Sources */,
+				8B337F2224AC0D8500FA5AF0 /* InteractionViewController.swift in Sources */,
 				FE05F1F5249AA17B007D7654 /* MapViewController.swift in Sources */,
 				57E95656249BB53C00D98358 /* MyCell.swift in Sources */,
+				8B337F2424AC40DA00FA5AF0 /* ButtonExtension.swift in Sources */,
 				FECF80A52497B58E004BAC92 /* SceneDelegate.swift in Sources */,
 				FE05F1F9249AA386007D7654 /* SettingsViewController.swift in Sources */,
 			);
