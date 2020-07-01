@@ -121,7 +121,7 @@
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtO-bk-fwY">
                                 <rect key="frame" x="75" y="149" width="170" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Piracuru à Casaca"/>
+                                <state key="normal" title="Button" image="PiracuruACasaca"/>
                                 <connections>
                                     <action selector="chosenOptionOne:" destination="AYE-wz-Zdw" eventType="touchUpInside" id="i3c-zS-PWM"/>
                                 </connections>
@@ -129,7 +129,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssC-Ti-2et">
                                 <rect key="frame" x="459" y="149" width="170" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Maniçoba"/>
+                                <state key="normal" title="Button" image="Manicoba"/>
                                 <connections>
                                     <action selector="chosenOptionThree:" destination="AYE-wz-Zdw" eventType="touchUpInside" id="pv7-vt-aEM"/>
                                 </connections>
@@ -137,7 +137,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBW-zS-lqU">
                                 <rect key="frame" x="267" y="149" width="170" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Tacacá"/>
+                                <state key="normal" title="Button" image="Tacaca"/>
                                 <connections>
                                     <action selector="chosenOptionTwo:" destination="AYE-wz-Zdw" eventType="touchUpInside" id="Q5p-Ah-gQc"/>
                                 </connections>
@@ -285,13 +285,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="VQM-eI-7IC">
-                                <rect key="frame" x="56.5" y="119" width="783" height="201"/>
+                                <rect key="frame" x="56.5" y="119" width="1125" height="1937.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="VQM-eI-7IC" secondAttribute="height" multiplier="389:670" id="PNv-jw-Tab"/>
                                 </constraints>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="zhH-Kh-J4I">
-                                <rect key="frame" x="251" y="161" width="394" height="600"/>
+                                <rect key="frame" x="422" y="161" width="394" height="600"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="394" id="4li-Ay-zCZ"/>
                                     <constraint firstAttribute="width" secondItem="zhH-Kh-J4I" secondAttribute="height" multiplier="197:300" id="9lo-uY-LCD"/>
@@ -327,7 +327,7 @@
                                 </connections>
                             </collectionView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title" translatesAutoresizingMaskIntoConstraints="NO" id="ryT-ET-540">
-                                <rect key="frame" x="153" y="49" width="590" height="68"/>
+                                <rect key="frame" x="153" y="49" width="932" height="68"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="196" id="Bow-qx-sAH"/>
                                     <constraint firstAttribute="height" constant="68" id="Wmm-lx-9tD"/>
@@ -503,9 +503,9 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Background" width="1125" height="1755"/>
-        <image name="Maniçoba" width="680" height="476"/>
-        <image name="Piracuru à Casaca" width="680" height="476"/>
-        <image name="Tacacá" width="680" height="476"/>
+        <image name="Manicoba" width="680" height="476"/>
+        <image name="PiracuruACasaca" width="680" height="476"/>
+        <image name="Tacaca" width="680" height="476"/>
         <image name="Tucupi" width="680" height="476"/>
         <image name="clear.fill" catalog="system" width="128" height="114"/>
         <image name="gear" catalog="system" width="128" height="119"/>

@@ -11,7 +11,19 @@ import AVFoundation
 
 class InteractionViewController: UIViewController {
     
+    var navigation: UINavigationController?
     var audio: AVAudioPlayer?
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = true
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+    }
     
     @IBAction func goToAnimation(_ sender: Any) {
         backToAnimation()
@@ -28,12 +40,12 @@ class InteractionViewController: UIViewController {
     }
     
     @IBAction func audioOptionTwo(_ sender: Any) {
-        audio = createPlayer(from: "Tacacá")
+        audio = createPlayer(from: "Tacaca")
         audio?.play()
     }
     
     @IBAction func audioOptionThree(_ sender: Any) {
-        audio = createPlayer(from: "Maniçoba")
+        audio = createPlayer(from: "Manicoba")
         audio?.play()
     }
     
@@ -49,13 +61,13 @@ class InteractionViewController: UIViewController {
     }
     
     @IBAction func chosenOptionTwo(_ sender: Any) {
-        audio = createPlayer(from: "EscolheuTacacá")
+        audio = createPlayer(from: "EscolheuTacaca")
         audio?.play()
         backToAnimation()
     }
     
     @IBAction func chosenOptionThree(_ sender: Any) {
-        audio = createPlayer(from: "EscolheuManiçoba")
+        audio = createPlayer(from: "EscolheuManicoba")
         audio?.play()
         backToAnimation()
     }
@@ -64,12 +76,6 @@ class InteractionViewController: UIViewController {
         audio = createPlayer(from: "EscolheuTucupi")
         audio?.play()
         backToAnimation()
-    }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
     }
     
     func createPlayer(from filename: String) -> AVAudioPlayer? {
@@ -89,8 +95,9 @@ class InteractionViewController: UIViewController {
     }
     
     func backToAnimation() {
-        let videoView = storyboard?.instantiateViewController(identifier: "video") as? videoViewController
-        self.navigationController?.pushViewController(videoView! , animated: true)
+        let videoController = videoViewController()
+        videoController.navigation = self.navigationController
+        present(videoController, animated: true, completion: nil)
     }
     
     

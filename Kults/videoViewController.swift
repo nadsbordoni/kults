@@ -11,10 +11,12 @@ import AVKit
 
 class videoViewController: AVPlayerViewController {
     var navigation: UINavigationController?
+    
     override func viewWillAppear(_ animated: Bool) {
         self.tabBarController?.tabBar.isHidden = true
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,13 +44,14 @@ class videoViewController: AVPlayerViewController {
         let storyboard = navigation?.storyboard
         let interactionView = storyboard?.instantiateViewController(identifier: "interaction") as? InteractionViewController
         
-        self.navigation?.pushViewController(interactionView! , animated: true)
+        self.navigation?.pushViewController(interactionView!, animated: true)
         self.dismiss(animated: true, completion: nil)
     }
     
     deinit {
         NotificationCenter.default.removeObserver(self)
     }
+    
     override func viewWillDisappear(_ animated: Bool) {
         self.tabBarController?.tabBar.isHidden = false
         self.navigation?.setNavigationBarHidden(false, animated: false)
