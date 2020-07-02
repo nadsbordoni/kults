@@ -57,24 +57,28 @@ class InteractionViewController: UIViewController {
     @IBAction func chosenOptionOne(_ sender: Any) {
         audio = createPlayer(from: "EscolheuPiracuru")
         audio?.play()
+        myIndex = 3
         backToAnimation()
     }
     
     @IBAction func chosenOptionTwo(_ sender: Any) {
         audio = createPlayer(from: "EscolheuTacaca")
         audio?.play()
+        myIndex = 4
         backToAnimation()
     }
     
     @IBAction func chosenOptionThree(_ sender: Any) {
         audio = createPlayer(from: "EscolheuManicoba")
         audio?.play()
+        myIndex = 5
         backToAnimation()
     }
     
     @IBAction func chosenOptionFour(_ sender: Any) {
         audio = createPlayer(from: "EscolheuTucupi")
         audio?.play()
+        myIndex = 6
         backToAnimation()
     }
     
@@ -98,8 +102,13 @@ class InteractionViewController: UIViewController {
         let videoController = videoViewController()
         videoController.navigation = self.navigationController
         present(videoController, animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
+
     }
-    
+    override func viewDidDisappear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = false
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
+    }
     
     /*
      // MARK: - Navigation

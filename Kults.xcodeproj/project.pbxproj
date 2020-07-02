@@ -10,6 +10,11 @@
 		575785F324A6228D00F99310 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575785F224A6228D00F99310 /* DetailViewController.swift */; };
 		5758166924A3EE3300FFF3BD /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5758166824A3EE3300FFF3BD /* Animation.swift */; };
 		5758166B24A3EF8500FFF3BD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5758166A24A3EF8500FFF3BD /* Model.swift */; };
+		578444A924AD5D5400C6C4E3 /* cena2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 578444A824AD5D5400C6C4E3 /* cena2.mp4 */; };
+		578444AB24AD5D5C00C6C4E3 /* piracuru.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 578444AA24AD5D5C00C6C4E3 /* piracuru.mp4 */; };
+		578444AD24AD5D6200C6C4E3 /* manicoba.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 578444AC24AD5D6200C6C4E3 /* manicoba.mp4 */; };
+		578444AF24AD5D6E00C6C4E3 /* tacaca.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 578444AE24AD5D6E00C6C4E3 /* tacaca.mp4 */; };
+		578444B124AD5D9300C6C4E3 /* tucupi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 578444B024AD5D9300C6C4E3 /* tucupi.mp4 */; };
 		57E95656249BB53C00D98358 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E95655249BB53C00D98358 /* MyCell.swift */; };
 		57EB1E5724A5943D00DB58A7 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1E5624A5943D00DB58A7 /* MyTableViewCell.swift */; };
 		57EB1E5924A5A1D000DB58A7 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EB1E5824A5A1D000DB58A7 /* Episode.swift */; };
@@ -60,6 +65,11 @@
 		575785F224A6228D00F99310 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5758166824A3EE3300FFF3BD /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		5758166A24A3EF8500FFF3BD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		578444A824AD5D5400C6C4E3 /* cena2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = cena2.mp4; path = Kults/cena2.mp4; sourceTree = "<group>"; };
+		578444AA24AD5D5C00C6C4E3 /* piracuru.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = piracuru.mp4; path = Kults/piracuru.mp4; sourceTree = "<group>"; };
+		578444AC24AD5D6200C6C4E3 /* manicoba.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = manicoba.mp4; path = Kults/manicoba.mp4; sourceTree = "<group>"; };
+		578444AE24AD5D6E00C6C4E3 /* tacaca.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = tacaca.mp4; path = Kults/tacaca.mp4; sourceTree = "<group>"; };
+		578444B024AD5D9300C6C4E3 /* tucupi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = tucupi.mp4; path = Kults/tucupi.mp4; sourceTree = "<group>"; };
 		57E95655249BB53C00D98358 /* MyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		57EB1E5624A5943D00DB58A7 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		57EB1E5824A5A1D000DB58A7 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
@@ -143,6 +153,11 @@
 		FECF80962497B58E004BAC92 = {
 			isa = PBXGroup;
 			children = (
+				578444B024AD5D9300C6C4E3 /* tucupi.mp4 */,
+				578444AE24AD5D6E00C6C4E3 /* tacaca.mp4 */,
+				578444AC24AD5D6200C6C4E3 /* manicoba.mp4 */,
+				578444AA24AD5D5C00C6C4E3 /* piracuru.mp4 */,
+				578444A824AD5D5400C6C4E3 /* cena2.mp4 */,
 				8B69B36624ACE40D0032A9E3 /* Escolha.mp3 */,
 				8B69B36024ACE40C0032A9E3 /* EscolheuManicoba.mp3 */,
 				8B69B36724ACE40D0032A9E3 /* EscolheuPiracuru.mp3 */,
@@ -328,10 +343,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578444B124AD5D9300C6C4E3 /* tucupi.mp4 in Resources */,
+				578444AF24AD5D6E00C6C4E3 /* tacaca.mp4 in Resources */,
 				FECF80AF2497B58F004BAC92 /* LaunchScreen.storyboard in Resources */,
 				8BC8F47224AAC374006AFFDE /* Assets.xcassets in Resources */,
 				FECF80AA2497B58E004BAC92 /* Main.storyboard in Resources */,
 				FE99CF2624ABD831006828D3 /* Todas as cenas.mp4 in Resources */,
+				578444A924AD5D5400C6C4E3 /* cena2.mp4 in Resources */,
 				8B69B37A24ACE4A20032A9E3 /* Tacaca.mp3 in Resources */,
 				8B69B37B24ACE4A20032A9E3 /* Manicoba.mp3 in Resources */,
 				8B69B37C24ACE4A20032A9E3 /* EscolheuTucupi.mp3 in Resources */,
@@ -339,7 +357,9 @@
 				8B69B37E24ACE4A20032A9E3 /* Piracuru.mp3 in Resources */,
 				8B69B37F24ACE4A20032A9E3 /* EscolheuManicoba.mp3 in Resources */,
 				8B69B38024ACE4A20032A9E3 /* EscolheuPiracuru.mp3 in Resources */,
+				578444AB24AD5D5C00C6C4E3 /* piracuru.mp4 in Resources */,
 				8B69B38124ACE4A20032A9E3 /* Tucupi.mp3 in Resources */,
+				578444AD24AD5D6200C6C4E3 /* manicoba.mp4 in Resources */,
 				8B69B38224ACE4A20032A9E3 /* EscolheuTacaca.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

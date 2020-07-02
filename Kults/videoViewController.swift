@@ -13,12 +13,14 @@ class videoViewController: AVPlayerViewController {
     var navigation: UINavigationController?
     
     override func viewWillAppear(_ animated: Bool) {
-        self.tabBarController?.tabBar.isHidden = true
-        self.navigationController?.setNavigationBarHidden(true, animated: false)
+        //self.tabBarController?.tabBar.isHidden = true
+        //self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         
         if myIndex == 0 {
@@ -30,6 +32,59 @@ class videoViewController: AVPlayerViewController {
             // para não voltar pro mesmo vídeo na tela de interação coloquei o index igual a 1 assim que termina o index 0
             myIndex = 1
         }
+       
+        
+        if (myIndex == 13) {
+            let path = Bundle.main.url(forResource: "piracuru", withExtension: "mp4")
+            let player = AVPlayer(url: path!)
+            self.player = player
+            
+            
+            // para não voltar pro mesmo vídeo na tela de interação coloquei o index igual a 1 assim que termina o index 0
+            myIndex = 20
+        }
+        
+        if (myIndex == 14) {
+            let path = Bundle.main.url(forResource: "tacaca", withExtension: "mp4")
+            let player = AVPlayer(url: path!)
+            self.player = player
+            
+            
+            // para não voltar pro mesmo vídeo na tela de interação coloquei o index igual a 1 assim que termina o index 0
+            myIndex = 20
+        }
+        
+        if (myIndex == 15) {
+            let path = Bundle.main.url(forResource: "manicoba", withExtension: "mp4")
+            let player = AVPlayer(url: path!)
+            self.player = player
+            
+            
+            // para não voltar pro mesmo vídeo na tela de interação coloquei o index igual a 1 assim que termina o index 0
+            myIndex = 20
+        }
+        
+        if (myIndex == 16) {
+            let path = Bundle.main.url(forResource: "tucupi", withExtension: "mp4")
+            let player = AVPlayer(url: path!)
+            self.player = player
+            
+            
+            // para não voltar pro mesmo vídeo na tela de interação coloquei o index igual a 1 assim que termina o index 0
+            myIndex = 20
+        }
+        
+        if (myIndex>2 && myIndex<7) {
+            let path = Bundle.main.url(forResource: "cena2", withExtension: "mp4")
+            let player = AVPlayer(url: path!)
+            self.player = player
+            
+            
+            // para não voltar pro mesmo vídeo na tela de interação coloquei o index igual a 1 assim que termina o index 0
+            myIndex = myIndex + 10
+        }
+        
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -41,11 +96,26 @@ class videoViewController: AVPlayerViewController {
     }
     
     @objc func videoDidEnd(notification: NSNotification) {
-        let storyboard = navigation?.storyboard
-        let interactionView = storyboard?.instantiateViewController(identifier: "interaction") as? InteractionViewController
+        if(myIndex == 1){
+            let storyboard = navigation?.storyboard
+            let interactionView = storyboard?.instantiateViewController(identifier: "interaction") as? InteractionViewController
         
-        self.navigation?.pushViewController(interactionView!, animated: true)
-        self.dismiss(animated: true, completion: nil)
+            self.navigation?.pushViewController(interactionView!, animated: true)
+        }
+        
+//        if(myIndex == 20) {
+//            self.tabBarController?.tabBar.isHidden = false
+//            self.navigationController?.setNavigationBarHidden(false, animated: false)
+//        }
+        
+        if(myIndex<13 || myIndex>16) {self.dismiss(animated: false, completion: nil)}
+        if(myIndex>12 && myIndex<17){
+            let videoController = videoViewController()
+            videoController.navigation = self.navigationController
+            present(videoController, animated: false, completion: nil)
+        }
+        
+        //if(myIndex<13 || myIndex>16) {self.dismiss(animated: true, completion: nil)}
     }
     
     deinit {
